@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+
+  height: 100%;
+}
+header {
+  background-color: #007765;
+  height: 84px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-style: normal;
+}
+.nav {
+  list-style: none;
+}
+.menu {
+  overflow: hidden;
+  padding: 20px 0;
+  width: 1115px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+}
+.nav li a {
+  float: right;
+  color: white;
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.bg-header {
+  text-align: center;
+  background: url(img/image.png) no-repeat center;
+  height: 483px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.bg-header h1 {
+  padding-top: 192px;
+  font-size: 72px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.about-problem {
+  background: #eeee;
+  height: 720px;
+  text-align: center;
+}
+.about-problem h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  color: #007765;
+  font-weight: 600;
+  padding: 48px 0 16px 0px;
+}
+.about-problem__text {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 32px;
+}
+.blue-bg {
+  height: 483px;
+  background-size: cover;
+  background-image: url(img/blue.png);
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.blue-bg__text {
+  width: 893px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  margin: 0 auto;
+  height: 483px;
+}
+.blue-bg__text p {
+  display: block;
+  padding-top: 128px;
+}
+.intdoduction {
+  height: 604px;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.intdoduction h2 {
+  font-size: 64px;
+  color: #007765;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-top: 48px;
+}
+.intdoduction p {
+  display: block;
+  margin: auto;
+  text-align: left;
+  font-size: 32px;
+  color: black;
+  line-height: 37px;
+  width: 1100px;
+}
+
+.dada::before {
+  content: url(img/PPC\Logo.png);
+  float: left;
+  margin-right: 48px;
+}
+.team {
+  font-family: "Roboto", sans-serif;
+  height: 845px;
+  background: #eeeeee;
+  text-align: center;
+}
+.team h2 {
+  color: #007765;
+  font-size: 64px;
+  padding-top: 58px;
+  padding-bottom: 32px;
+}
+.team__people {
+  width: 1115px;
+  height: 600px;
+  margin: auto;
+}
+.team__picture {
+  float: left;
+  margin-right: 15px;
+  height: 283px;
+  width: 350px;
+}
+.team__picture img {
+  display: inline-block;
+}
+.podpis {
+  color: #007765;
+  font-size: 24px;
+  padding-top: 12px;
+}
+.xex {
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+}
+footer {
+  height: 176px;
+  background-color: #333333;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+footer p {
+  display: block;
+  width: 540px;
+  margin: auto;
+  padding-top: 50px;
+}
